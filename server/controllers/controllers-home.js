@@ -53,7 +53,7 @@ const home = async (req, res) => {
     const suggestions2 = wiki2.data.query.categorymembers || [];
 
     // ===============================
-    //  FOURSQUARE (CURRENTLY OFF)
+    //  FOURSQUARE 
     // ===============================
 
     /*
@@ -74,9 +74,8 @@ const home = async (req, res) => {
     }
     */
 
-    const fsqData = []; // temporary empty
+    const fsqData = []; 
 
-    // 7️⃣ Final response
     return res.status(200).json({
       name: location.name,
       country: location.countryName,

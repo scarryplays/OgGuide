@@ -4,7 +4,7 @@ const mongoose = require("mongoose")
 
 // mongoose.connect(URI);
   // const URI = 
-  // "mongodb+srv://anubhavkumar9654070617:anubhav7011@cluster0.hzymyeg.mongodb.net/og_guide?retryWrites=true&w=majority&appName=Cluster0";
+ 
      const URI = process.env.MONGODB_URI;
      
 const connectDb = async () => {
