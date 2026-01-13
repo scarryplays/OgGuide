@@ -1,0 +1,99 @@
+/** -----------------------
+** contact section css
+** -------------------------  */
+/* .section-contact {
+    & .contact-content {
+      padding: 0;
+  
+      & h1 {
+        margin-bottom: 3.2rem;
+      }
+    }
+    & .container {
+      padding-top: 3.2rem;
+    }
+    & .contact-img {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      & img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  
+    & .section-form {
+      & form {
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+      }
+      & label {
+        display: block;
+        margin-bottom: 1.2rem;
+        text-transform: capitalize;
+      }
+  
+      & input,
+      textarea {
+        width: 80%;
+        padding: 0.4rem 0.6rem;
+      }
+    }
+  } */
+
+
+  .section-contact{
+    display: flex;
+        flex-direction: column;
+        gap: 30px;
+  }
+
+  .contact-content-container{
+    /* background-color: rgba(167, 148, 118, 0.856); */
+    height: 400px;
+    width: 400px;
+    background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 2px 2px 30px black;
+    margin: auto;
+    /* box-sizing: border-box; */
+  }
+
+  .main-heading{
+    text-align: center;
+    margin: auto;
+    }
+  .container-grid-grid-two-cols{
+  display: flex;
+  margin: auto;
+  }
+
+  .section-form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+  }
+  
+  .input-sec{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: inherit;
+  }
+  .btn{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #ffffff;    
+  }

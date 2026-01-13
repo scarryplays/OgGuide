@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background: #1D2B64;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to left, #F8CDDA, #225cc699); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-image: linear-gradient(to left, #F8CDDA, #225cc699),url(../images/0.png);
+background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+/* background-repeat: no-repeat; */
+background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  display: none;              /* Chrome, Safari ke liye */
+}
+header{
+  margin-top: 15px;
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.logo-brand a {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 1px 1px 15px white;
+  
+}
+.logo-brand a:hover {
+  color: #0f0c29;
+}
+.nav-css ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-css ul li {
+  margin: 0 15px;
+}
+
+.nav-css ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 2px 2px 20px white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-css ul li a:hover {
+  color: #007bff;
+}
+
+.theline {
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  margin-top: 5px;
+}
+
+.li-home::before{
+  content: "\f015";
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  margin-right: 4px;
+  color: aliceblue;
+  text-shadow: 2px 2px 20px white;
+  background: transparent;
+  /* -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+  --fa-primary-color: #d7deea; 
+  --fa-secondary-color: #d7deea; */
+}
+
+
+
+
+.li-about::before{
+  content: "\f2bb";
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  margin-right: 6px;
+  color: aliceblue;
+  text-shadow: 2px 2px 20px white;
+  background: transparent;
+  /* -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+  --fa-primary-color: #d7deea; 
+  --fa-secondary-color: #d7deea; */
+}
+.li-service::before{
+  content: "\f7d9";
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  margin-right: 6px;
+  color: aliceblue;
+  text-shadow: 2px 2px 20px white;
+  background: transparent;
+  /* -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+  --fa-primary-color: #d7deea; 
+  --fa-secondary-color: #d7deea; */
+}
+.li-contact::before{
+  content: "\f2a0";
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  margin-right: 6px;
+  color: aliceblue;
+  text-shadow: 2px 2px 20px white;
+  background: transparent;
+  /* -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+  --fa-primary-color: #d7deea; 
+  --fa-secondary-color: #d7deea; */
+}
+.li-register::before{
+  content: "\f234";
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  margin-right: 6px;
+  color: aliceblue;
+  text-shadow: 2px 2px 20px white;
+  background: transparent;
+  /* -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+  --fa-primary-color: #d7deea; 
+  --fa-secondary-color: #d7deea; */
+}
+/* .logo-brand::before{
+  content: "";
+  background-image: "";
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  margin-right: 6px;
+  color: aliceblue;
+  text-shadow: 2px 2px 20px white;
+  background: transparent;
+  display: inline-block;
+  width: 100px;        
+  height: 100px;
+  background-image: url('../public/images/OG_GUIDE_LOGO.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;  
+  vertical-align: middle; */
+  /* -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+  --fa-primary-color: #d7deea; 
+  --fa-secondary-color: #d7deea; */
+/* } */
+.li-logout::before{
+  content: "\f2f5";
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  margin-right: 6px;
+  color: aliceblue;
+  text-shadow: 2px 2px 20px white;
+  background: transparent;
+  /* -webkit-font-smoothing: antialiased;
+  color: #ffffff;
+  --fa-primary-color: #d7deea; 
+  --fa-secondary-color: #d7deea; */
+}
