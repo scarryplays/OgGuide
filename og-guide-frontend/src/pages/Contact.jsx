@@ -29,14 +29,14 @@ export const Contact = () => {
     <>
       <section className="section-contact">
         <div className="contact-content-container">
-          <h1 className="main-heading">contact us</h1>
+          <h1 className="main-heading">Message for us</h1>
        
         <div className="container-grid-grid-two-cols">
 
           <section>
             <form onSubmit={handleSubmit} className="section-form">
               <div className="input-sec">
-                <label htmlFor="username">username</label>
+                <label htmlFor="username">Username</label>
                 <input
                   type="text"
                   name="username"
@@ -49,7 +49,7 @@ export const Contact = () => {
               </div>
 
               <div  className="input-sec">
-                <label htmlFor="email">email</label>
+                <label htmlFor="email">Email</label>
                 <input
                   type="email"
                   name="email"
@@ -62,7 +62,7 @@ export const Contact = () => {
               </div>
 
               <div className="input-sec">
-                <label htmlFor="message">message</label>
+                <label htmlFor="message">Message</label>
                 <textarea
                   name="message"
                   id="message"
@@ -76,7 +76,7 @@ export const Contact = () => {
               </div>
 
               <div className="input-sec">
-                <button type="submit" className="btn">submit</button>
+                <button type="submit" className="btn">Submit</button>
               </div>
             </form>
            
